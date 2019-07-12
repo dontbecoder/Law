@@ -8,22 +8,22 @@
 
 
 # 要式合同、非要式合同；诺成性合同
-class Contract: # 合同
-	def Dismissal:# 解除合同
-		if():# 根本违约，合同目的无法实现
+class Contract():	# 合同
+	def Dismissal(self):	# 解除合同
+		if(True):			# 根本违约，合同目的无法实现
 			pass
-	def Cancel: # 撤销合同
-		if():
+	def Cancel(self): 		# 撤销合同
+		if(True):
 			pass
 
 
 class CommercialHousingContract:# 商品房买卖合同
-	def Dismissal:# 解除合同
-		if():#套内面积与合同约定面积误差比超过5%；买卖合同成立后，抵押给第三人的；房屋主体结构之类不合格的
+	def Dismissal(self):	# 解除合同
+		if(True):			# 套内面积与合同约定面积误差比超过5%；买卖合同成立后，抵押给第三人的；房屋主体结构之类不合格的
 			pass
 
 class ConstructionContract: # 建设工程合同
-	pass	# 建设单位未取得施工资质的，施工合同无效，但事后竣工验收合格的，法院支持承包人按照合同约定支付工程价款
+	pass					# 建设单位未取得施工资质的，施工合同无效，但事后竣工验收合格的，法院支持承包人按照合同约定支付工程价款
 	
 # 分期付款买卖合同 = 指买受人将应付的总价款在一定期限内至少分3次向出卖人支付的，属于“分期付款”
 
